@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  console.log("I'm a console statement!");
+  console.log('Welcome to C308 Lesson 04 quiz!');
+  console.log('Your component here');
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -41,39 +42,11 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Welcome to C308</Text>
-              <Text style={styles.sectionTitle}>Recommended Eats @ RP </Text>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
               <Text style={styles.sectionDescription}>
-                <Text style={styles.highlight}>Sweet Tooth Waffles </Text>
-                has waffles with cornflakes and chocolate spread, other than
-                usual fillings such as kaya an peanut butter.
+                Set a time you would like us to arrive at your pickup location
               </Text>
-              <Text style={styles.highlight}>W6 Level 1, E-canteen</Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionDescription}>
-                <Text style={styles.highlight}>Crowded Bowl </Text>
-                serves DIY vegetarian salad bowls. Pasta, potato salad and olive
-                fried rice are some of the options available.
-              </Text>
-              <Text style={styles.highlight}>W4/W6 Lawn Canteen</Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionDescription}>
-                <Text style={styles.highlight}>Western Cuisine @ Koufu </Text>
-                sells one of the most delicious western food at very affordable
-                prices. Their top selling item would be chicken and spaghetti.
-              </Text>
-              <Text style={styles.highlight}>E1 Level 1, Koufu</Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionDescription}>
-                <Text style={styles.highlight}>Ayam Penyet </Text>
-                has a long queue for its 'smashed code'(ayam penyet). The
-                chicken is soaked in homemade sauce and topped with crunchy
-                fried crumbs. Its chilli is not too spicy.
-              </Text>
-              <Text style={styles.highlight}>W4/W6 Lawn canteen</Text>
+              <Text style={styles.highlight}>RP Furniture Sop</Text>
             </View>
           </View>
         </ScrollView>
