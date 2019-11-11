@@ -46,7 +46,7 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionDescription}>
                 Set a time you would like us to arrive at your pickup location
               </Text>
-              <Text style={styles.highlight}>RP Furniture Sop</Text>
+              <Text style={styles.highlight}>RP Furniture Shop</Text>
             </View>
           </View>
         </ScrollView>
